@@ -1,0 +1,15 @@
+.Belgrad{
+    position: relative;
+    background-color: whitesmoke;
+    // width: 40%;
+    path{
+        fill: rgb(189, 189, 189);
+        transition: 0.3s;
+        stroke:rgb(0, 32, 1);
+        stroke-width: 12px;
+        &:hover{
+            stroke-width: 20px;
+            stroke:rgb(0, 20, 1) !important;
+        }
+    }
+}

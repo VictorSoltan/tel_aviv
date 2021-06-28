@@ -1,0 +1,56 @@
+.Sidebar{
+    background-color: #363740;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 28%;
+    min-width: 210px;
+    .Sidebar-Logo{
+        display: flex;
+        align-items: center;
+        color: #D4D7E5;
+        padding-left: 18%;
+        margin-top: 5%;
+        width: 100%;
+        .Logo{
+            background-color: #3751FF;
+            border-radius: 50%;
+            padding: 8px;
+            .half-circle{
+                width: 12px;
+                height: 14px;
+                margin: 0 1px 0 2px;
+                background: linear-gradient(143.7deg, rgba(255, 255, 255, 0.7) 0%, #FFFFFF 100%);
+                border-top-right-radius: 110px;
+                border-bottom-right-radius: 110px;
+                border-bottom: 0;
+            }
+        }
+        h2{
+            padding-left: 6%;
+            flex-shrink: 0;
+        }
+    }
+    .options{
+        color: #DDE2FF;
+        width: 100%;
+        &:nth-child(2){
+            margin-top: 8%;
+            border-bottom: 1px solid #dfe0eb1c;
+        }
+        &:nth-child(3){
+            margin-top: 5%;
+        }        
+        div{
+            padding: 7%;
+            &:hover{
+                background-color: #3E4049;
+                border-left: 1px solid #DDE2FF;
+            }
+            span{
+                padding-left: 16%;
+            }
+        }
+    }
+}
