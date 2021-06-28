@@ -64,9 +64,18 @@ function Content() {
 
   const OverviewFilters = filters.map((filter, index) =>{
     return(
-      <span key={index}>{filter.value}</span>
+      <span onClick={dateFilter} key={index}>{filter.value}</span>
   )})
-
+  
+  function dateFilter(e){
+    for(let x = 0; x < e.target.parentNode.children.length; x++){
+      e.target.parentNode.children[x].style.backgroundColor = 'white';
+      e.target.parentNode.children[x].style.color = '#A6ACBE';
+    }
+    e.target.style.backgroundColor = '#6F52ED';
+    e.target.style.color = 'white';
+  }
+  
   const modal_window = [
     { value: 'Social Class', procent: '85%', icon: hand},
     { value: 'Education', procent: '85%', icon: education },
@@ -92,12 +101,22 @@ function Content() {
   )})
 
   const score = [
-    { value: 'City Score', procent: '100%'},
-    { value: 'Social Media Score', procent: '71%'},
+    { value: 'City Score', procent: '50%'},
+    { value: 'Social Media Score', procent: '31%'},
     { value: 'Area Score', procent: '60%'}
   ]
 
   const score_div = score.map((variable, index) =>{
+    let procAdaptive = 1.3
+    let line_height_Adaptive = 66
+    let line_height_Adaptive_Down = 64
+    let line_top_Adaptive = 53
+    if(window.innerWidth <= 1600){
+      procAdaptive = 1
+      line_height_Adaptive = 50
+      line_top_Adaptive = 37
+      line_height_Adaptive_Down = 50
+    }
     let circlePlace;
     let proc = variable.procent.replace('%', ''); 
     proc = 100-proc
@@ -123,11 +142,11 @@ function Content() {
       background_color = '#FB665C'
     }
     if(proc < 50){
-      line_top = proc*1.3 - 53
-      line_height = 66 - proc*1.3
+      line_top = proc*procAdaptive - line_top_Adaptive
+      line_height = line_height_Adaptive - proc*procAdaptive
     }else if(proc > 50){
       line_top = 12
-      line_height = proc*1.3 - 64
+      line_height = proc*procAdaptive - line_height_Adaptive_Down
     }else{
       line_height = 0
     }
@@ -149,7 +168,16 @@ function Content() {
       </div>
   )})
   const modelScore = mapColors.map((variable, index) => {
-
+    let procAdaptive = 1.3
+    let line_height_Adaptive = 66
+    let line_height_Adaptive_Down = 64
+    let line_top_Adaptive = 53
+    if(window.innerWidth <= 1920){
+      procAdaptive = 1
+      line_height_Adaptive = 50
+      line_top_Adaptive = 37
+      line_height_Adaptive_Down = 50
+    }
     let circlePlace;
     let proc = mapColors[districtNum].city_score.replace('%', ''); 
     proc = 100-proc
@@ -175,11 +203,11 @@ function Content() {
       background_color = '#FB665C'
     }
     if(proc < 50){
-      line_top = proc*1.3 - 53
-      line_height = 66 - proc*1.3
+      line_top = proc*procAdaptive - line_top_Adaptive
+      line_height = line_height_Adaptive - proc*procAdaptive
     }else if(proc > 50){
       line_top = 12
-      line_height = proc*1.3 - 64
+      line_height = proc*procAdaptive - line_height_Adaptive_Down
     }else{
       line_height = 0
     }
@@ -225,7 +253,7 @@ function Content() {
             <img src={Bell} />
           </div>
           <div>
-            Jones Ferdinand
+            <h6>Jones Ferdinand</h6>
             <img src={avatar} />
           </div>
         </div>        
