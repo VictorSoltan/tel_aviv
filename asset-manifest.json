@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/tel_aviv/static/css/main.ba8d755d.chunk.css",
+    "main.js": "/tel_aviv/static/js/main.87fd6736.chunk.js",
+    "main.js.map": "/tel_aviv/static/js/main.87fd6736.chunk.js.map",
+    "runtime-main.js": "/tel_aviv/static/js/runtime-main.134137c4.js",
+    "runtime-main.js.map": "/tel_aviv/static/js/runtime-main.134137c4.js.map",
+    "static/js/2.12896182.chunk.js": "/tel_aviv/static/js/2.12896182.chunk.js",
+    "static/js/2.12896182.chunk.js.map": "/tel_aviv/static/js/2.12896182.chunk.js.map",
+    "static/js/3.c5ef27ca.chunk.js": "/tel_aviv/static/js/3.c5ef27ca.chunk.js",
+    "static/js/3.c5ef27ca.chunk.js.map": "/tel_aviv/static/js/3.c5ef27ca.chunk.js.map",
+    "index.html": "/tel_aviv/index.html",
+    "static/css/main.ba8d755d.chunk.css.map": "/tel_aviv/static/css/main.ba8d755d.chunk.css.map",
+    "static/js/2.12896182.chunk.js.LICENSE.txt": "/tel_aviv/static/js/2.12896182.chunk.js.LICENSE.txt",
+    "static/media/education.67933005.svg": "/tel_aviv/static/media/education.67933005.svg",
+    "static/media/hand.1f17e737.svg": "/tel_aviv/static/media/hand.1f17e737.svg",
+    "static/media/justice.3ed90727.svg": "/tel_aviv/static/media/justice.3ed90727.svg",
+    "static/media/person.2fd71c3e.svg": "/tel_aviv/static/media/person.2fd71c3e.svg",
+    "static/media/phone.15a5924b.svg": "/tel_aviv/static/media/phone.15a5924b.svg",
+    "static/media/right.c5d963cc.svg": "/tel_aviv/static/media/right.c5d963cc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.134137c4.js",
+    "static/js/2.12896182.chunk.js",
+    "static/css/main.ba8d755d.chunk.css",
+    "static/js/main.87fd6736.chunk.js"
+  ]
+}
