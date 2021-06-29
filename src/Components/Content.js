@@ -172,11 +172,16 @@ function Content() {
     let line_height_Adaptive = 66
     let line_height_Adaptive_Down = 64
     let line_top_Adaptive = 53
-    if(window.innerWidth <= 1920){
+    if(window.innerWidth <= 1920 && window.innerWidth >= 1600){
       procAdaptive = 1
       line_height_Adaptive = 50
       line_top_Adaptive = 37
       line_height_Adaptive_Down = 50
+    }else if(window.innerWidth <= 1600){
+      procAdaptive = 0.8
+      line_height_Adaptive = 41
+      line_top_Adaptive = 28
+      line_height_Adaptive_Down = 40
     }
     let circlePlace;
     let proc = mapColors[districtNum].city_score.replace('%', ''); 

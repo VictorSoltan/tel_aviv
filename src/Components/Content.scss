@@ -9,7 +9,7 @@
         margin: 0 auto;
         justify-content: space-between;
         @media (max-width: 1600px){
-            width: 95%;
+            width: 96%;
         }
         div{
             display: flex;
@@ -20,6 +20,9 @@
             min-width: 560px;
             h1{
                 color: #7B7B7B;
+            @media (max-width: 1600px){
+                font-size: 25px;
+            }
             }
             div{
                 margin-left: 3vw;
@@ -33,6 +36,7 @@
                     font-size: 12px;
                     padding: 1.8% 3% 1.8% 3%;
                     color: #A6ACBE;
+                    cursor: pointer;
                     &:nth-child(1){
                         background-color: #6F52ED;
                         color: white;
@@ -42,14 +46,24 @@
         }
         .user-field{
             justify-content: space-between;
-            width: 16.5%;
+            width: 18%;
+            @media (max-width: 1600px){
+                width: 20%;
+            }
+            @media (max-width: 1366px){
+                width: 23%;
+            }
             .notifications_search{
                 border-right: 1px solid rgb(218, 218, 218);
                 padding-right: 10%;
                 margin-right: 9%;
+                @media (max-width: 1600px){
+                    padding-right: 10%;
+                    margin-right: 7%;
+                }
             }
             h6{
-                width: 150px;
+                width: 135px;
                 font-weight: 300;
                 font-size: 16px;
             }
@@ -233,11 +247,28 @@
                 margin-bottom: 4%;
                 .city_score{
                     height: 100px;
+                    margin-bottom: 100%;
+                    @media (max-width: 1600px){
+                        height: 80px;
+                        width: 12px;
+                    }
                     &:after{
                         margin-top: 100px;
+                        @media (max-width: 1600px){
+                            margin-top: 80px;
+                            width: 12px;
+                        }
                     }
+                    &:before{
+                        @media (max-width: 1600px){
+                            width: 12px;
+                        }
+                    }    
                     .color_point{
                         margin-top: 31px;
+                        @media (max-width: 1600px){
+                            margin-top: 21px;
+                        }
                     }
                 }
                 .numb_score{
