@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import './Content.scss';
 import Belgrad from "./Belgrad.js";
 import avatar from './../Static/avatar.png'
-import Bell from './../Static/Bell.png'
+import bell from './../Static/bell.svg'
+import loupe from './../Static/loupe.svg'
 
 import hand from './../Static/hand.svg'
 import education from './../Static/education.svg'
@@ -255,9 +256,12 @@ function Content() {
         </div>
         <div className="user-field">
           <div className="notifications_search">
-            <img src={Bell} />
+            <img src={loupe} />
+            <div className="bell">
+              <img src={bell} />
+            </div>
           </div>
-          <div>
+          <div className="profile">
             <h6>Jones Ferdinand</h6>
             <img src={avatar} />
           </div>
