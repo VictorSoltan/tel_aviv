@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tel_aviv/static/css/main.66362425.chunk.css",
-    "main.js": "/tel_aviv/static/js/main.74c86331.chunk.js",
-    "main.js.map": "/tel_aviv/static/js/main.74c86331.chunk.js.map",
+    "main.css": "/tel_aviv/static/css/main.aaccdc62.chunk.css",
+    "main.js": "/tel_aviv/static/js/main.bbb3c75e.chunk.js",
+    "main.js.map": "/tel_aviv/static/js/main.bbb3c75e.chunk.js.map",
     "runtime-main.js": "/tel_aviv/static/js/runtime-main.134137c4.js",
     "runtime-main.js.map": "/tel_aviv/static/js/runtime-main.134137c4.js.map",
     "static/js/2.12896182.chunk.js": "/tel_aviv/static/js/2.12896182.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.c5ef27ca.chunk.js": "/tel_aviv/static/js/3.c5ef27ca.chunk.js",
     "static/js/3.c5ef27ca.chunk.js.map": "/tel_aviv/static/js/3.c5ef27ca.chunk.js.map",
     "index.html": "/tel_aviv/index.html",
-    "static/css/main.66362425.chunk.css.map": "/tel_aviv/static/css/main.66362425.chunk.css.map",
+    "static/css/main.aaccdc62.chunk.css.map": "/tel_aviv/static/css/main.aaccdc62.chunk.css.map",
     "static/js/2.12896182.chunk.js.LICENSE.txt": "/tel_aviv/static/js/2.12896182.chunk.js.LICENSE.txt",
     "static/media/education.67933005.svg": "/tel_aviv/static/media/education.67933005.svg",
     "static/media/hand.1f17e737.svg": "/tel_aviv/static/media/hand.1f17e737.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.134137c4.js",
     "static/js/2.12896182.chunk.js",
-    "static/css/main.66362425.chunk.css",
-    "static/js/main.74c86331.chunk.js"
+    "static/css/main.aaccdc62.chunk.css",
+    "static/js/main.bbb3c75e.chunk.js"
   ]
 }
